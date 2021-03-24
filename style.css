@@ -1,30 +1,40 @@
 
-.list {
-    display: inline;
-    padding: 10px;
-    }
-    .list:hover{
-    background-color: red;
-    }
-    body{
+
+body{
         background-color: rgb(221, 243, 243);
       
     }
-    h1{
+h1{
     text-decoration: red;
     font-family: 'Times New Roman', Times, serif;
     }
-    .main{
+main {
+        text-align: left;
         font-style: italic;
+        margin-left: 100px;
+        margin-right: 100px;
         font-weight: bold;
         font-size: 1.5rem;
     }
-    .main{
-        margin-left: 50px;
+
+    h1{
+        text-align: center;
+        
     }
+
     
-    }
-    .contactus{
+.contactus{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    
+    .navbar ul{
+        text-align: center;
+    }
+   .navbar li{
+display: inline-block;
+
+   }
+.navbar a{
+       width: 100px;
+       display: block;
+       
+   }
