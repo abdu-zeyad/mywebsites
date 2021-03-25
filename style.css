@@ -78,3 +78,36 @@ font-size: 40px;
 margin-right: 50px;
 }
 
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+    }
+.news{
+
+    float: left;
+    width: 48%;
+   font-size: 20px;
+   font-weight: bold;
+   color: rgb(3, 17, 8);
+}
+.results{   
+    float: right;
+    width: 45%;
+    font-size: 20px;
+   font-weight: bold;
+   color: rgb(53, 0, 0);
+}
+.vl{
+    
+    border-left: 4px solid rgb(0, 3, 0);
+   height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    
+}
+.contactus{
+    font-size: 25px;
+
+}

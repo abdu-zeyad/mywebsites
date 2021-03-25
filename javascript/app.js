@@ -1,6 +1,6 @@
 alert("Hello Soccer Gamer");
 
-var fav = prompt('what is   your favorite game ','fifa,pes,pesmobile');
+var fav = prompt('what is   your favorite game choose from :fifa,pes,pesmobile');
 
 if (fav === 'pes' ) {
    
