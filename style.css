@@ -1,41 +1,79 @@
 
+.logor{
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logol{
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 
-body{
-        background-color: rgb(221, 243, 243);
-      
-    }
-h1{
-    text-decoration: red;
-    font-family: 'Times New Roman', Times, serif;
-    }
-main {
-        text-align: left;
-        font-style: italic;
-        margin-left: 100px;
-        margin-right: 100px;
-        font-weight: bold;
-        font-size: 1.5rem;
-    }
+}
 
-    h1{
-        text-align: center;
-        
-    }
-
+.navbar ul{
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    background-color: rgb(176, 184, 255);
     
-.contactus{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .navbar ul{
-        text-align: center;
-    }
-   .navbar li{
-display: inline-block;
 
-   }
+}
 .navbar a{
-       width: 100px;
-       display: block;
-       
-   }
- 
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+h1{
+    color: darkmagenta;
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    }
+
+.contactus{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row:after{
+content: "";
+display: table;
+clear: both;
+}
+
+
+.pes{
+  float: left;
+  width: 33.3%;
+
+}
+.fifa{   
+    float: left;
+   width: 33.3%;
+
+}
+.pm{
+   float: left;
+   width: 33.3%;
+
+}
+
+.pes1,.fifa,.pm{
+    font-size: 30px;
+    text-align: left;
+    text-decoration: solid;
+    
+}
+.pes1:hover, .fifa:hover , .pm:hover{
+font-size: 40px;    
+}
+.pmb , .fifab , .pesb{
+margin-right: 50px;
+}
+body{
+    background-image: url(images/studim.jpg);    
+}

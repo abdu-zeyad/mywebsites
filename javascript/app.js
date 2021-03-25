@@ -1,18 +1,20 @@
-alert("hello world");
-var name = prompt('what is your name ?');
-var fav = prompt('Inter car or boat ');
+alert("Hello Soccer Gamer");
 
-if (fav === 'boat' ) {
-   document.write('<img src="https://alfastreet-marine.com/wp-content/uploads/2020/01/8a.jpg" >')
-   alert('it is a nice boat')
-   console.log('yes it is a nice boat')
-} else if (fav =='car') 
+var fav = prompt('what is   your favorite game ','fifa,pes,pesmobile');
+
+if (fav === 'pes' ) {
+   
+   alert('vote for pes ')
+   console.log('pes is the best')
+} else if (fav =='fifa') 
     
 
 {
     
-document.write ('<img src="https://www.hyundai.com/content/hyundai/ww/data/news/data/2021/0000016609/image/newsroom-0112-photo-1-2021elantranline-1120x745.jpg">')
-alert('it is a nice car')
-console.log('yes it is a nice car')
+   alert('vote for fifa ')
+   console.log('fifa is the best')
 }
- 
+ else if (fav == 'pes mobile') {
+   alert('vote for pesmobile ')
+   console.log('pes mobile is the best')
+ }
