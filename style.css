@@ -1,4 +1,7 @@
 
+body{
+    background-image: url(images/studim.jpg);    
+}
 .logor{
     float: left;
     position: absolute;
@@ -74,6 +77,4 @@ font-size: 40px;
 .pmb , .fifab , .pesb{
 margin-right: 50px;
 }
-body{
-    background-image: url(images/studim.jpg);    
-}
+
