@@ -1,7 +1,7 @@
 alert("Hello Soccer Gamer");
-var name = prompt('what is your nmae? ')
 
-var fav = prompt('what is   your favorite game choose from :fifa,pes,pesmobile');
+
+var fav = prompt('what is your favorite game choose from :fifa,pes,pesmobile');
 
 if (fav === 'pes' ) {
    
@@ -26,3 +26,24 @@ function pressed(){
       document.getElementById("header").style.color ="red";
    }else{document.getElementById("header").style.color="black";}
 }
+
+
+var i
+var enterName 
+
+
+while (enterName !== 'ahmad' )
+{
+   enterName = prompt('Enter ahmad ') }
+
+
+
+var numberofimage = prompt('inter the number of goldenball image')
+var pic ='';
+ 
+
+for (var i=0 ; i<numberofimage ; i++){
+   pic ='<img src="images/goldenball.jpg "> ' 
+document.write(pic)
+} 
+  
