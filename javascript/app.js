@@ -20,12 +20,6 @@ if (fav === 'pes' ) {
    console.log('pes mobile is the best')
  }
  
-function pressed(){
-   var text = document.getElementById("inp").value;
-   if (text === "red") {
-      document.getElementById("header").style.color ="red";
-   }else{document.getElementById("header").style.color="black";}
-}
 
 
 var i
@@ -47,3 +41,14 @@ for (var i=0 ; i<numberofimage ; i++){
 document.write(pic)
 } 
   
+function pressed(){
+   var text = document.getElementById("inp").value;
+   if (text === "red") {
+      document.getElementById("header").style.color ="red";
+   }else{document.getElementById("header").style.color="black";}
+}
+
+function names() {
+   var aa = prompt('please enter your name ');
+   console.log(aa);
+}
